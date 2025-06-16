@@ -17,7 +17,7 @@ import asyncio
 from typing import List, Dict, Any
 from fastapi.middleware.cors import CORSMiddleware
 
-MODEL_NAME = "deepseek-r1:7b"
+MODEL_NAME = "deepseek-r1:14b"
 DATA_PATH = "./documents/furina.txt"
 CHROMA_DB_PATH = "./chroma_db"
 EMBEDDINGS_CACHE = "./embeddings_cache"
